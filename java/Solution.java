@@ -1,8 +1,8 @@
 import java.util.List;
 
 public class Solution {
-    public List<String> translateSentence(List<List<String>> glossary, List<String> sentence) {
+    public List<String> translateSentence(List<String[]> glossary, List<String> sentence) {
         // Your implementation here
-        return List.of(); 
+        return List.of();
     }
 }
