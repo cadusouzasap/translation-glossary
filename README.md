@@ -10,6 +10,15 @@ If a word does not exist in the glossary, leave it unchanged in the output.
 
 ---
 
+## Notes
+
+- The translation must preserve the original word order.
+- The search should be **case-insensitive**.
+- If a word is not found in the glossary (even after normalizing case), it must be kept unchanged.
+- You may assume all words are space-separated and contain no punctuation.
+
+---
+
 ## Input
 
 - `glossary`: A list of pairs, where each pair contains a Portuguese word and its English translation.
@@ -67,12 +76,3 @@ sentence = ["A", "chave", "estava", "embaixo", "da", "porta"]
 ```
 ["A", "key", "estava", "embaixo", "da", "door"]
 ```
-
----
-
-## Notes
-
-- The translation must preserve the original word order.
-- The search should be **case-insensitive**.
-- If a word is not found in the glossary (even after normalizing case), it must be kept unchanged.
-- You may assume all words are space-separated and contain no punctuation.
